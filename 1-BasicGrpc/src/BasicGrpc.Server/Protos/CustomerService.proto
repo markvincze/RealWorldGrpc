@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "BasicGrpc.Contracts";
+
+service CustomerService {
+    rpc CreateCustomer (CreateCustomerRequest) returns (CreateCustomerReply);
+    rpc ListCustomers (ListCustomersRequest) returns (ListCustomersReply);
+}
+
+message CreateCustomerRequest {
+    string first_name = 1;
+    string last_name = 2;
+}
+
+message CreateCustomerReply {
+}
+
+message ListCustomersRequest {
+}
+
+message ListCustomersReply {
+    repeated Customer customers = 1;
+}
+
+message Customer {
+    string first_name = 1;
+    string last_name = 2;
+}
