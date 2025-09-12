@@ -1,0 +1,3 @@
+[submodule "3-MaintainingContracts/CustomerService.Contracts"]
+	path = 3-MaintainingContracts/CustomerService.Contracts
+	url = https://github.com/markvincze/CustomerService.Contracts.git
