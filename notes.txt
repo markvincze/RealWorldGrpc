@@ -1,0 +1,10 @@
+In VSCode, a project-specific setting is needed:
+```
+{
+    "protoc": {
+        "options": [
+            "--proto_path=src/MaintainingContracts.Basic/Protos"
+        ]
+    }
+}
+```

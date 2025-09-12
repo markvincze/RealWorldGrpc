@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package mycompany.customerservice.model.v1;
+
+option csharp_namespace = "MyCompany.CustomerService.Model.V1";
+option java_package = "com.mycompany.customerservice.model.v1";
+
+message Customer {
+    string first_name = 1;
+    string last_name = 2;
+}

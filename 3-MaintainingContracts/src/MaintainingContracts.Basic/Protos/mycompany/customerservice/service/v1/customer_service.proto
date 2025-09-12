@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package mycompany.customerservice.service.v1;
+
+option csharp_namespace = "MyCompany.CustomerService.Service.V1";
+option java_package = "com.mycompany.customerservice.service.v1";
+
+import "mycompany/customerservice/model/v1/customer_model.proto";
+
+service CustomerService {
+    rpc GetCustomer (GetCustomerRequest) returns (GetCustomerReply);
+}
+
+message GetCustomerRequest {
+    int32 customer_id = 1;
+}
+
+message GetCustomerReply {
+    repeated mycompany.customerservice.model.v1.Customer customers = 1;
+}
