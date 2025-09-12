@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RestoreSources>$(RestoreSources);../../CustomerService.Contracts/CodeGeneration/DotNet/MyCompany.CustomerService.Service.V1/bin/Release;../../CustomerService.Contracts/CodeGeneration/DotNet/MyCompany.CustomerService.Model.V1/bin/Release;</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MyCompany.CustomerService.Service.V1" Version="1.0.0" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.64.0" />
+  </ItemGroup>
+
+</Project>
