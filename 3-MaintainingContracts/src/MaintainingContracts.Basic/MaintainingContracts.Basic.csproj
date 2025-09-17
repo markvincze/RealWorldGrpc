@@ -8,8 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="../../CustomerService.Contracts/mycompany/customerservice/service/v1/customer_service.proto" AdditionalImportDirs="../../CustomerService.Contracts"></Protobuf>
-    <Protobuf Include="../../CustomerService.Contracts/mycompany/customerservice/model/v1/customer_model.proto" AdditionalImportDirs="../../CustomerService.Contracts"></Protobuf>
+    <Protobuf
+        Include="../../CustomerService.Contracts/mycompany/customerservice/service/v1/customer_service.proto"
+        AdditionalImportDirs="../../CustomerService.Contracts"></Protobuf>
+    <Protobuf
+        Include="../../CustomerService.Contracts/mycompany/customerservice/model/v1/customer_model.proto"
+        AdditionalImportDirs="../../CustomerService.Contracts"></Protobuf>
   </ItemGroup>
 
   <ItemGroup>
