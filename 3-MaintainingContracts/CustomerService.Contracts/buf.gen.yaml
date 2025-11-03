@@ -1,0 +1,10 @@
+version: v2
+plugins:
+- remote: buf.build/protocolbuffers/java:v32.1
+  out: CodeGeneration/BufGen/Java
+- remote: buf.build/grpc/java:v1.75.0
+  out: CodeGeneration/BufGen/Java
+- remote: buf.build/grpc/python:v1.75.0
+  out: CodeGeneration/BufGen/Python
+- remote: buf.build/protocolbuffers/python:v32.1
+  out: CodeGeneration/BufGen/Python
