@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "chatserver.ChatService.UploasFragments"
+  },
+  "requests": [
+    {
+      "location": "UploasFragments-request-0.json"
+    }
+  ],
+  "operationType": "clientStreaming",
+  "invokerName": "grpc",
+  "importStreamId": "03739223-c936-4e25-b976-d5fd54daba08"
+}

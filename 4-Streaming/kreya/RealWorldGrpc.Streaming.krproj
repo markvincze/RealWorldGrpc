@@ -1,0 +1,20 @@
+{
+  "id": "4dc0db3f-21ed-4ebb-94e9-b5662485e641",
+  "importStreams": [
+    {
+      "id": "03739223-c936-4e25-b976-d5fd54daba08",
+      "name": "proto-file",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../src/RealWorldGrpc.Streaming.ChatServer/Protos"
+        ],
+        "importPaths": [],
+        "excludedFiles": []
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": []
+}

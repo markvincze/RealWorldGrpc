@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "chatserver.ChatService.SearchProducts"
+  },
+  "requests": [
+    {
+      "location": "SearchProducts-request.json"
+    }
+  ],
+  "operationType": "serverStreaming",
+  "invokerName": "grpc",
+  "importStreamId": "03739223-c936-4e25-b976-d5fd54daba08"
+}
